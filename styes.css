@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #6e90a4;
+    color: white;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #6e90a4;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: ultralight;
+    underline: double;
+    underline-color: #007bff;
+    overline: single;
+    overline-color: #007bff;
+    strikethrough: true;
+    strikethrough-color: #007bff;
+    margin-right: 50px;
+}
+
+.job, .project {
+    margin-bottom: 20px;
+}
+
+.job h3, .project h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #6e90a4;
+}
+
+.job p, .project p {
+    margin: 5px 0;
+}
+
+#contact p, #contact a {
+    margin: 5px 0;
+}
